@@ -1359,3 +1359,43 @@ body {
     bottom: 0;
     right: 18rem;
 }
+.backshapes__item{
+    position: absolute;
+    z-index: -1;
+
+}
+.backshapes--shape1{
+    top: 0;
+    left: 32%;
+}
+.backshapes--shape2{
+    top: 18rem;
+    left: 18%;
+    opacity: .5;
+    animation: moveShape3 20s infinite;
+}
+.backshapes--shape3{
+    top: 31%;
+    left: 20%;
+    animation: moveShape4 25s infinite;
+}
+.backshapes--shape4{
+    top: 44%;
+    left: 28%;
+    animation: moveShape3 30s infinite;
+}
+.backshapes--shape5{
+    top: 50%;
+    right: 17%;
+    animation: moveShape4 30s infinite;
+}
+.backshapes--shape6{
+    top: 26%;
+    right: 21%;
+    animation: moveShape5 30s infinite;
+}
+.backshapes--shape7{
+    top: 30%;
+    right: 15%;
+    animation: moveShape3 30s infinite;
+}
