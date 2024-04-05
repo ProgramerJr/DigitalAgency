@@ -10,15 +10,42 @@
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css" />
     <link rel="stylesheet" href="./assets/fonts/dmsans/dmsans.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
 </head>
 
 <body>
+    <!-- MENU NAVEGACION RESPONSIVE -->
+    <div class="menu-mobile">
+        <header class="menu-mobile__header">
+            <div class="menu-mobile__container-logo">
+                <a href="#" class="menu-mobile__link-logo">
+                    <img src="./assets/img/logo1.png" alt="" class="menu-mobile__logo">
+                </a>
+            </div>
+            <button class="menu-mobile__close">
+                <i class="menu-mobile__icon-close fa-solid fa-xmark"></i>
+            </button>
+        </header>
+
+        <div class="menu-mobile__body">
+
+        </div>
+    </div>
+    <!-- Layout Principal -->
     <div class="layout">
         <!-- Menu layout -->
         <section class="layout__menu">
             <header class="menu__navbar">
                 <div class="navbar__logo">
                     <a href="#" class="navbar__link-logo"><img src="./assets/img/logo1.png" class="navbar--logo-light" /></a>
+                </div>
+                <!-- BOTON DE MENU RESPONSIVE -->
+                <div class="navbar__mobile-btn">
+                    <button class="mobile-btn__wrap">
+              <span class="mobile-btn__line"></span
+              ><span class="mobile-btn__line"></span
+              ><span class="mobile-btn__line"></span>
+            </button>
                 </div>
                 <!-- Navegacion -->
                 <nav class="navbar__nav">
@@ -103,7 +130,9 @@
         <section class="layout__banner">
             <!-- Contenido del banner -->
             <header class="banner__content">
-                <h1 class="banner__title">Diseño & <br> Desarrollo Web</h1>
+                <h1 class="banner__title">
+                    Diseño & <br /> Desarrollo Web
+                </h1>
                 <a href="#" class="banner__btn">Ver Trabajos</a>
             </header>
             <!-- Formas e imagenes del banner -->
@@ -230,7 +259,9 @@
                 </header>
 
                 <ul class="projects__categories">
-                    <li class="categories__item categories__item--active">Todos los trabajos</li>
+                    <li class="categories__item categories__item--active">
+                        Todos los trabajos
+                    </li>
                     <li class="categories__item">Desarrollo web</li>
                     <li class="categories__item">Desarrollo móvil</li>
                     <li class="categories__item">Diseño web</li>
@@ -505,23 +536,45 @@
                 <header class="news__header">
                     <h4 class="news__subtitle">¿Qué estás pasando?</h4>
                     <h2 class="news__title">Últimas noticias</h2>
-                    <p class="news__description">Novedades sobre el desarrollo web, desarrollo movil y diseño digital</p>
+                    <p class="news__description">
+                        Novedades sobre el desarrollo web, desarrollo movil y diseño digital
+                    </p>
                 </header>
                 <div class="news__list">
                     <article class="news__new">
-                        <div class="new__container-img"><img src="./assets/img/story-1.jpg" alt="Noticia 1" class="new__img"></div>
+                        <div class="new__container-img">
+                            <img src="./assets/img/story-1.jpg" alt="Noticia 1" class="new__img" />
+                        </div>
                         <div class="new__content">
-                            <h3 class="new__title"><a href="#" class="new__link">Como maquetar una web con HTML5 y CSS3</a></h3>
-                            <p class="new__description">¿Quieres dar tus primeros pasos en el desarrollo web y aprender a crear webs espectaculares?</p>
-                            <a href="#" class="new__more">Leer más <i class="fa-solid fa-chevron-right new__icon"></i></a>
+                            <h3 class="new__title">
+                                <a href="#" class="new__link">Como maquetar una web con HTML5 y CSS3</a
+                  >
+                </h3>
+                <p class="new__description">
+                  ¿Quieres dar tus primeros pasos en el desarrollo web y
+                  aprender a crear webs espectaculares?
+                </p>
+                <a href="#" class="new__more"
+                  >Leer más <i class="fa-solid fa-chevron-right new__icon"></i
+                ></a>
                         </div>
                     </article>
                     <article class="news__new">
-                        <div class="new__container-img"><img src="./assets/img/story-2.jpg" alt="Noticia 2" class="new__img"></div>
+                        <div class="new__container-img">
+                            <img src="./assets/img/story-2.jpg" alt="Noticia 2" class="new__img" />
+                        </div>
                         <div class="new__content">
-                            <h3 class="new__title"><a href="#" class="new__link">Aprender a programar con Javascript</a></h3>
-                            <p class="new__description">¿Quieres dar tus primeros pasos en la programación en el lado cliente?</p>
-                            <a href="#" class="new__more">Leer más <i class="fa-solid fa-chevron-right new__icon"></i></a>
+                            <h3 class="new__title">
+                                <a href="#" class="new__link">Aprender a programar con Javascript</a
+                  >
+                </h3>
+                <p class="new__description">
+                  ¿Quieres dar tus primeros pasos en la programación en el lado
+                  cliente?
+                </p>
+                <a href="#" class="new__more"
+                  >Leer más <i class="fa-solid fa-chevron-right new__icon"></i
+                ></a>
                         </div>
                     </article>
                 </div>
@@ -559,13 +612,13 @@
                 </header>
                 <div class="contact__images">
                     <div class="contact__thumb contact__thumb--chat">
-                        <img src="./assets/img/chat-group.png" alt="" class="contact__img">
+                        <img src="./assets/img/chat-group.png" alt="" class="contact__img" />
                     </div>
                     <div class="contact__thumb contact__thumb--laptop">
-                        <img src="./assets/img/laptop-poses.png" alt="" class="contact__img">
+                        <img src="./assets/img/laptop-poses.png" alt="" class="contact__img" />
                     </div>
                     <div class="contact__thumb contact__thumb--mobile">
-                        <img src="./assets/img/men-mobile.png" alt="" class="contact__img">
+                        <img src="./assets/img/men-mobile.png" alt="" class="contact__img" />
                     </div>
                 </div>
             </div>
@@ -599,28 +652,36 @@
                 <section class="footer__top">
                     <ul class="footer__social">
                         <li class="social__item">
-                            <a href="#" class="social__link"><i class="fa-brands fa-facebook-f social__img"></i></a>
+                            <a href="#" class="social__link"><i class="fa-brands fa-facebook-f social__img"></i
+                ></a>
                         </li>
                         <li class="social__item">
-                            <a href="#" class="social__link"><i class="fa-brands fa-twitter social__img"></i></a>
+                            <a href="#" class="social__link"><i class="fa-brands fa-twitter social__img"></i
+                ></a>
                         </li>
                         <li class="social__item">
-                            <a href="#" class="social__link"><i class="fa-brands fa-youtube social__img"></i></a>
+                            <a href="#" class="social__link"><i class="fa-brands fa-youtube social__img"></i
+                ></a>
                         </li>
                         <li class="social__item">
-                            <a href="#" class="social__link"><i class="fa-brands fa-linkedin social__img"></i></a>
+                            <a href="#" class="social__link"><i class="fa-brands fa-linkedin social__img"></i
+                ></a>
                         </li>
                         <li class="social__item">
-                            <a href="#" class="social__link"><i class="fa-brands fa-instagram social__img"></i></a>
+                            <a href="#" class="social__link"><i class="fa-brands fa-instagram social__img"></i
+                ></a>
                         </li>
                         <li class="social__item">
-                            <a href="#" class="social__link"><i class="fa-brands fa-pinterest-p social__img"></i></a>
+                            <a href="#" class="social__link"><i class="fa-brands fa-pinterest-p social__img"></i
+                ></a>
                         </li>
                         <li class="social__item">
-                            <a href="#" class="social__link"><i class="fa-brands fa-vimeo-v social__img"></i></a>
+                            <a href="#" class="social__link"><i class="fa-brands fa-vimeo-v social__img"></i
+                ></a>
                         </li>
                         <li class="social__item">
-                            <a href="#" class="social__link"><i class="fa-brands fa-behance social__img"></i></a>
+                            <a href="#" class="social__link"><i class="fa-brands fa-behance social__img"></i
+                ></a>
                         </li>
                     </ul>
                 </section>
@@ -628,11 +689,14 @@
                     <div class="footer__left">
                         <div class="fleft__container">
                             <h2 class="fleft__title">Contactanos!</h2>
-                            <p class="fleft__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sunt ducimus nisi, porro obcaecati nihil soluta exercitationem. At consequuntur minus quia, saepe autem dolores soluta voluptas unde cumque distinctio consectetur?</p>
+                            <p class="fleft__subtitle">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sunt ducimus nisi, porro obcaecati nihil soluta exercitationem. At consequuntur minus quia, saepe autem dolores soluta voluptas unde cumque distinctio consectetur?
+                            </p>
                             <form action="" class="fleft__form">
                                 <div class="fleft__group">
-                                    <span class="fleft__mail-icon"><i class="fa-solid fa-envelope-open-text fleft__img"></i></span>
-                                    <input type="text" class="fleft__form-control" placeholder="Correo Electrónico" name="" id="">
+                                    <span class="fleft__mail-icon"><i class="fa-solid fa-envelope-open-text fleft__img"></i
+                    ></span>
+                                    <input type="text" class="fleft__form-control" placeholder="Correo Electrónico" name="" id="" />
                                     <button type="submit" class="fleft__btn">Suscríbete</button>
                                 </div>
                             </form>
@@ -643,27 +707,50 @@
                             <div class="footer__widget footer__widget--50">
                                 <h6 class="widget__title">Servicios</h6>
                                 <ul class="widget__list">
-                                    <li class="widget__item"><a href="#" class="widget__link">Diseño</a></li>
-                                    <li class="widget__item"><a href="#" class="widget__link">Desarrollo</a></li>
-                                    <li class="widget__item"><a href="#" class="widget__link">Programación</a></li>
-                                    <li class="widget__item"><a href="#" class="widget__link">Marketing</a></li>
-                                    <li class="widget__item"><a href="#" class="widget__link">Consultoria</a></li>
+                                    <li class="widget__item">
+                                        <a href="#" class="widget__link">Diseño</a>
+                                    </li>
+                                    <li class="widget__item">
+                                        <a href="#" class="widget__link">Desarrollo</a>
+                                    </li>
+                                    <li class="widget__item">
+                                        <a href="#" class="widget__link">Programación</a>
+                                    </li>
+                                    <li class="widget__item">
+                                        <a href="#" class="widget__link">Marketing</a>
+                                    </li>
+                                    <li class="widget__item">
+                                        <a href="#" class="widget__link">Consultoria</a>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="footer__widget footer__widget--25">
                                 <h6 class="widget__title">Recursos</h6>
                                 <ul class="widget__list">
-                                    <li class="widget__item"><a href="#" class="widget__link">Blog</a></li>
-                                    <li class="widget__item"><a href="#" class="widget__link">Formación</a></li>
-                                    <li class="widget__item"><a href="#" class="widget__link">Portafolio</a></li>
+                                    <li class="widget__item">
+                                        <a href="#" class="widget__link">Blog</a>
+                                    </li>
+                                    <li class="widget__item">
+                                        <a href="#" class="widget__link">Formación</a>
+                                    </li>
+                                    <li class="widget__item">
+                                        <a href="#" class="widget__link">Portafolio</a>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="footer__widget footer__widget--25">
                                 <h6 class="widget__title">Soporte</h6>
                                 <ul class="widget__list">
-                                    <li class="widget__item"><a href="#" class="widget__link">Contacto</a></li>
-                                    <li class="widget__item"><a href="#" class="widget__link">Política de privacidad</a></li>
-                                    <li class="widget__item"><a href="#" class="widget__link">Términos de uso</a></li>
+                                    <li class="widget__item">
+                                        <a href="#" class="widget__link">Contacto</a>
+                                    </li>
+                                    <li class="widget__item">
+                                        <a href="#" class="widget__link">Política de privacidad</a
+                      >
+                    </li>
+                    <li class="widget__item">
+                      <a href="#" class="widget__link">Términos de uso</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -671,18 +758,23 @@
                 </section>
                 <section class="footer__bottom">
                     <div class="footer__copyright">
-                        <span class="copyright__text">&copy; 2024. Todos los derechos reservados a Victor Garcia</span>
-                    </div>
-                    <div class="footer__links">
-                        <ul class="footer__flinks">
-                            <li class="flinks__item flinks__item--separator"><a href="#" class="flinks__title">Políticas de privacidad</a></li>
-                            <li class="flinks__item"><a href="#" class="flinks__title">Términos de uso</a></li>
-                        </ul>
-                    </div>
-                </section>
+                        <span class="copyright__text">&copy; 2024. Todos los derechos reservados a Victor
+                Garcia</span
+              >
             </div>
-        </footer>
+            <div class="footer__links">
+              <ul class="footer__flinks">
+                <li class="flinks__item flinks__item--separator">
+                  <a href="#" class="flinks__title">Políticas de privacidad</a>
+                </li>
+                <li class="flinks__item">
+                  <a href="#" class="flinks__title">Términos de uso</a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </footer>
     </div>
-</body>
-
+  </body>
 </html>
