@@ -58,6 +58,16 @@ body {
     align-items: center;
 }
 
+.menu__navbar--fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    background-color: var(--color-secondary);
+    box-shadow: 0px 2px 10px 0 rgba(0, 0, 0, .1);
+}
+
 .navbar__logo {
     width: 187px;
 }
