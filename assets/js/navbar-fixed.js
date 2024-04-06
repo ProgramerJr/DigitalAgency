@@ -4,9 +4,11 @@ document.addEventListener(
         window.addEventListener(
             'scroll', () => {
                 let scroll = window.scrollY;
-                if(scroll > 120){
+                console.log(scroll);
+                if (scroll > 120) {
+                    console.log(scroll);
                     navbar.classList.add('menu__navbar--fixed')
-                }else{
+                } else {
                     navbar.classList.remove('menu__navbar--fixed')
                 }
             })
